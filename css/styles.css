@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #10002B;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1{
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3C096C;
+    max-width: 860px;
+    min-width: 350px;
+    border-radius: 20px;
+    min-height: 240px;
+    max-height: 500px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.encrip{
+    background-color: #9D4EDD;
+    min-width: 200px;
+    width: 300px;
+    height: 30px;
+    margin: 20px 0px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    justify-content: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input::placeholder{
+    color: white;
+    opacity: 50%;
+}
+
+.encrip:focus{
+    border-color: rgb(157,78,221);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(157,78,221,0.6);
+    outline: 0 none;
+}
+
+textarea::placeholder{
+    color: white;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana ;
+    opacity: 50%;
+}
+
+.desencrip{
+    height: 80px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn-container{
+    display: flex;
+    width: 300px;
+    justify-items: left;
+}
+
+.btn-encrip:hover{
+    width: 101px;
+    height: 26px;
+    font-size: 14px;
+}
+
+.btn-encrip{
+    background-color: #10002B;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-desencrip{
+    background-color: #3C096C;
+    color: #9D4EDD;
+    border: 2px solid #9D4EDD;
+}
+
+.btn-copiar{
+    display: flex;
+    width: 300px;
+}
+
+.copiar{
+    margin-left: 210px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    /* background-color: #3C096C; */
+}
+
+.redes{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 1px;
+}
+
+.linkedin:hover{
+    width: 37px;
+}
+.github:hover{
+    width: 31px;
+}
+.github{
+    width: 25px;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+.nombre{
+    font-size: 12px;
+    margin-top: 15px;
+    opacity: 75%;
+}
