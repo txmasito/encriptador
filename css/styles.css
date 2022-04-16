@@ -4,7 +4,7 @@
 
 body{
     background-color: #10002B;
-    color: white;
+    color: #E0AAFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -15,7 +15,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     margin-top: 10%;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -37,6 +37,7 @@ h1{
     border-radius: 20px;
     min-height: 240px;
     max-height: 500px;
+    
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -98,7 +99,7 @@ textarea::placeholder{
 .btn-encrip{
     background-color: #10002B;
     border: none;
-    color: white;
+    color: #E0AAFF;
     width: 100px;
     height: 25px;
     margin-right: 10px;
@@ -125,7 +126,7 @@ textarea::placeholder{
 }
 
 .bottom{
-    position: fixed;
+    position: absolute;
     bottom: 0%;
     width: 100%;
     text-align: center;
