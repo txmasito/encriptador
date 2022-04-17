@@ -35,8 +35,8 @@ h1{
     max-width: 860px;
     min-width: 350px;
     border-radius: 20px;
-    min-height: 240px;
-    max-height: 500px;
+    height: 260px;
+    /* max-height: 500px; */
     
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -49,7 +49,7 @@ h1{
     min-width: 200px;
     width: 300px;
     height: 30px;
-    margin: 20px 0px 10px;
+    margin: 15px 0px 15px;
     border: none;
     border-radius: 10px;
     font-size: 14px;
@@ -59,6 +59,14 @@ h1{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+}
+
+.input-ingresar{
+    margin-top: 25px;
 }
 
 input::placeholder{
@@ -67,9 +75,14 @@ input::placeholder{
 }
 
 .encrip:focus{
+    transition: 0.5s;
     border-color: rgb(157,78,221);
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(157,78,221,0.6);
     outline: 0 none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 textarea::placeholder{
@@ -81,7 +94,7 @@ textarea::placeholder{
 .desencrip{
     height: 80px;
     padding-bottom: 50px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .btn-container{
@@ -91,23 +104,36 @@ textarea::placeholder{
 }
 
 .btn-encrip:hover{
-    width: 101px;
+    /* width: 101px;
     height: 26px;
-    font-size: 14px;
+    font-size: 14px; */
+    background-color: #9D4EDD;
+    color: #10002B;
+    cursor: pointer;
 }
+
+/* .btn-desencrip:hover{
+    background-color: #10002B;
+    color: #9D4EDD;
+} */
 
 .btn-encrip{
     background-color: #10002B;
     border: none;
     color: #E0AAFF;
     width: 100px;
-    height: 25px;
+    height: 27px;
     margin-right: 10px;
+    transition: 0.5s background;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    -webkit-transition: 0.5s background;
+    -moz-transition: 0.5s background;
+    -ms-transition: 0.5s background;
+    -o-transition: 0.5s background;
 }
 
 .btn-desencrip{
@@ -126,7 +152,7 @@ textarea::placeholder{
 }
 
 .bottom{
-    position: absolute;
+    position: absolute; 
     bottom: 0%;
     width: 100%;
     text-align: center;
@@ -137,6 +163,11 @@ textarea::placeholder{
     width: 30px;
     margin-top: 20px;
     margin-right: 1px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .linkedin:hover{
